@@ -7,10 +7,10 @@ socket.on('hello', function(data){
 
 socket.on('disconnect', function(){});
 
-function init() {
-document.getElementById("button").addEventListener('click', function() {
-    socket.emit('button', "pressed");
-  });
+function setup(){
+  createCanvas(400, 400);
 }
 
-window.addEventListener('load', init);
+function draw() {
+  
+}
